@@ -1,0 +1,46 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Admin Management</h2>
+    <a routerLink="/admin/al" class="btn btn-success">
+      <i class="fas fa-plus"></i> Add New Admin
+    </a>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h5 class="mb-0">All Admins</h5>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let admin of alldata">
+              <td>{{ admin.id }}</td>
+              <td>{{ admin.name }}</td>
+              <td>{{ admin.email }}</td>
+              <td>
+                <a class="btn btn-sm btn-warning me-2" routerLink="/admin/admin-update/{{ admin.id }}">
+                  <i class="fas fa-edit"></i> Edit
+                </a>
+                <button class="btn btn-sm btn-danger" (click)="remove(admin.id)">
+                  <i class="fas fa-trash"></i> Delete
+                </button>
+              </td>
+            </tr>
+            <tr *ngIf="alldata.length === 0">
+              <td colspan="4" class="text-center text-muted">No admins found</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

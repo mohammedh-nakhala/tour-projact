@@ -1,0 +1,24 @@
+<div class="container col-md-5 mt-5">
+  <div class="card shadow">
+    <div class="card-header bg-primary text-white">
+      <h5 class="card-title mb-0">Admin Login</h5>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+        <div class="form-group mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input id="username" placeholder="Enter your username" formControlName="username" type="text" class="form-control">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input id="password" type="password" placeholder="Enter your password" formControlName="password" class="form-control">
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

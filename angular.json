@@ -21,14 +21,22 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+  "src/favicon.ico",
+  "src/assets",
+  {
+    "glob": "**/*",
+    "input": "public/assets",
+    "output": "assets"
+  }
+]
+            ,"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+  "node_modules/aos/dist/aos.css",
+  "node_modules/swiper/swiper-bundle.min.css",
+  "node_modules/glightbox/dist/css/glightbox.min.css",
+  "public/assets/css/main.css"
+],
             "scripts": []
           },
           "configurations": {

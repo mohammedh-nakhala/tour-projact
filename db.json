@@ -1,0 +1,65 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "description": "The City of Light, known for its art, fashion, gastronomy and culture.",
+      "image": "destination-1.webp",
+      "price": 1200,
+      "duration": "7 days"
+    },
+    {
+      "id": 2,
+      "name": "Tokyo, Japan",
+      "description": "A bustling metropolis where traditional culture meets cutting-edge technology.",
+      "image": "destination-2.webp",
+      "price": 1500,
+      "duration": "10 days"
+    },
+    {
+      "id": 3,
+      "name": "New York, USA",
+      "description": "The city that never sleeps, offering endless entertainment and cultural experiences.",
+      "image": "destination-3.webp",
+      "price": 1800,
+      "duration": "8 days"
+    }
+  ],
+  "tours": [
+    {
+      "id": 1,
+      "name": "European Adventure",
+      "description": "Explore the best of Europe in this comprehensive tour.",
+      "image": "tour-1.webp",
+      "price": 2500,
+      "duration": "14 days",
+      "destinations": ["Paris", "Rome", "London"]
+    },
+    {
+      "id": 2,
+      "name": "Asian Discovery",
+      "description": "Discover the wonders of Asia with this amazing tour package.",
+      "image": "tour-2.webp",
+      "price": 2200,
+      "duration": "12 days",
+      "destinations": ["Tokyo", "Bangkok", "Singapore"]
+    },
+    {
+      "id": 3,
+      "name": "American Highlights",
+      "description": "Experience the best of America from coast to coast.",
+      "image": "tour-3.webp",
+      "price": 2000,
+      "duration": "10 days",
+      "destinations": ["New York", "Los Angeles", "Chicago"]
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123"
+    }
+  ]
+}

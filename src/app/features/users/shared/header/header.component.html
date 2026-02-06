@@ -1,0 +1,39 @@
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a routerLink="/users/home" class="logo d-flex align-items-center me-auto me-xl-0">
+
+        <h1 class="sitename">Tour</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a routerLink="/users/home" routerLinkActive="active">Home</a></li>
+          <li><a routerLink="/users/about" routerLinkActive="active">About</a></li>
+          <li><a routerLink="/users/destinations" routerLinkActive="active">Destinations</a></li>
+          <li><a routerLink="/users/tours" routerLinkActive="active">Tours</a></li>
+          <li><a routerLink="/users/gallery" routerLinkActive="active">Gallery</a></li>
+          <li><a routerLink="/users/blog" routerLinkActive="active">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a routerLink="/users/destination-details" routerLinkActive="active">Destination Details</a></li>
+              <li><a routerLink="/users/tour-details" routerLinkActive="active">Tour Details</a></li>
+              <li><a routerLink="/users/booking" routerLinkActive="active">Booking</a></li>
+              <li><a routerLink="/users/asked-questions" routerLinkActive="active">Frequently Asked Questions</a></li>
+              <li><a routerLink="/users/blog-details" routerLinkActive="active">Blog Details</a></li>
+              <li><a routerLink="/users/terms" routerLinkActive="active">Terms</a></li>
+              <li><a routerLink="/users/privacy" routerLinkActive="active">Privacy</a></li>
+            </ul>
+          </li>
+          <li><a routerLink="/users/contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" routerLink="/users/destiantios">Get Started</a>
+      <a class="btn-getstarted ms-2" routerLink="/admin/login">Login</a>
+
+    </div>
+  </header>
+
