@@ -1,0 +1,66 @@
+{
+  "tours": [
+    {
+      "id": "1",
+      "name": "Swiss Alps Adventure",
+      "img": "http://localhost:4200/assets/img/travel/tour-3.webp",
+      "price": 750,
+      "destination": "Experience breathtaking mountain views and charming alpine villages in the heart of Switzerland."
+    },
+    {
+      "id": "27e7",
+      "name": "dsfdf",
+      "price": 234,
+      "destination": "asdffaasf",
+      "img": "http://localhost:4200/assets/img/travel/tour-3.webp"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Maldives",
+      "category": "Elysian",
+      "img": "http://localhost:4200/assets/img/travel/destination-2.webp",
+      "price": "$2,450",
+      "destination": "Experience breathtaking mountain views and charming alpine villages in the heart of Switzerland."
+    },
+    {
+      "id": "b635",
+      "name": "asdad",
+      "price": 13,
+      "destination": "wqe",
+      "img": "http://localhost:4200/assets/img/travel/destination-2.webp",
+      "category": "asf"
+    },
+    {
+      "id": "c379",
+      "name": "asdasd",
+      "price": 213,
+      "destination": "wsda",
+      "img": "http://localhost:4200/assets/img/travel/destination-2.webp",
+      "category": "asdas"
+    },
+    {
+      "id": "55dc",
+      "name": "asddsa",
+      "price": 132,
+      "destination": "asddas",
+      "img": "http://localhost:4200/assets/img/travel/destination-2.webp",
+      "category": "asd"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "email": "admin123456@gmail.com",
+      "password": "123456",
+      "name": "mohammed"
+    },
+    {
+      "id": "ab94",
+      "email": "",
+      "name": "",
+      "password": ""
+    }
+  ]
+}
